@@ -10,8 +10,9 @@ class largestelement {
 
 }
     public static void main(String[] args){
-        int[]array={50,42,38,10,29,44};
-        findlargestelement(array);
+        // int[]array={50,42,38,10,29,44};
+        // findlargestelement(array);
+        findlargestelement(new int[]{50,42,38,10,29,44}); //anonymous array
     
     }
 }
