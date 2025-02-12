@@ -9,6 +9,7 @@ public class Removeduplicates {
                 
             }
     }
+    
     // create an array to store new elementts.
     int[] newnums = new int[j + 1];
         for (int k = 0; k <= j; k++) {
@@ -22,8 +23,8 @@ public static void main(String[] args) {
     int[] nums = {1, 2, 3, 3, 4, 4, 5};
     int[]  duplicates = Removeduplicates.findduplicates(nums);
     System.out.println(duplicates.length);
-    for (int num : duplicates) {
-        System.out.print(num + " ");
+    for (int x : duplicates) {
+        System.out.print(x + " ");
         
     }
         }

@@ -2,7 +2,7 @@ class secondlargestelement{
 
  
     public static void main(String[] args){
-            int[] array={50,12,55,86};
+            int[] array={50,12,55,20,86,100};
             int temp;
             for(int i=0; i<array.length;i++){
                 for(int j=i+1; j<array.length; j++){
@@ -11,7 +11,7 @@ class secondlargestelement{
                         array[i]=array[j];
                         array[j]=temp;
         
-                    }
+                    }                                                                                               
                 }
             }
            
