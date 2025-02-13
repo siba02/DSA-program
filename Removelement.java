@@ -9,13 +9,20 @@ class Removelement {
                 
             }
         }
-     return j++;
+     return j;
 }
 public static void main(String[] args) {
-    int [] nums={3,2,2,2,4,3,5,8,10};
+    int [] nums={3,2,2,2,4,6,5,8,10};
     int val=2;
     int result=Removelement.removeElement(nums,val);
+    
     System.out.print(result);
+    System.out.print("\nnew array");
+    for (int i = 0; i < result; i++) {
+        System.out.print(nums[i] + " ");
+    }
+    
+    System.out.println(); 
     
     }
 }

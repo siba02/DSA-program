@@ -1,8 +1,11 @@
 //? Remove duplicates from a sorted array.(Easy 57%  No-26).
+
+import java.util.Arrays;
+
 public class Removeduplicates {
     public static int[] findduplicates(int []nums){
         int j=0;
-        for(int i=0;i<nums.length;i++){
+        for(int i=1;i<nums.length;i++){
             if(nums[j]!=nums[i]){
                 ++j;
                 nums[j]=nums[i];
@@ -10,23 +13,14 @@ public class Removeduplicates {
             }
     }
     
-    // create an array to store new elementts.
-    int[] newnums = new int[j + 1];
-        for (int k = 0; k <= j; k++) {
-            newnums[k] = nums[k];
-        }
-
-        return newnums;
+    // Return only the unique part
+        return Arrays.copyOf(nums, j + 1);
 }
 
 public static void main(String[] args) {
     int[] nums = {1, 2, 3, 3, 4, 4, 5};
     int[]  duplicates = Removeduplicates.findduplicates(nums);
-    System.out.println(duplicates.length);
-    for (int x : duplicates) {
-        System.out.print(x + " ");
-        
-    }
+    System.out.println(Arrays.toString(duplicates));
         }
    
     }
