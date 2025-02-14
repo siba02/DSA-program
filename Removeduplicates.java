@@ -6,14 +6,14 @@ public class Removeduplicates {
     public static int[] findduplicates(int []nums){
         int j=0;
         for(int i=1;i<nums.length;i++){
-            if(nums[j]!=nums[i]){
+            if(nums[i]!=nums[j]){  //j is start from 0(15)and i is started from 1(22)
                 ++j;
                 nums[j]=nums[i];
                 
             }
     }
     
-    // Return only the unique part
+    // Return only the unique part  arr and its length.
         return Arrays.copyOf(nums, j + 1);
 }
 
