@@ -1,17 +1,22 @@
 // ? Twosum by Brute Force method(Easy 53% No-01).
 class TwoSum{
 
-public static int[] findTwoSum(int[] nums, int target) {      // parameterised static method.  int -- return type. findTwosum--methodname.
+public static int[]  findTwoSum(int[] nums, int target) {      // parameterised static method.  int -- return type. findTwosum--methodname.
     for (int i = 0; i < nums.length; i++) {
         for (int j = i + 1; j < nums.length; j++) {
             if (nums[i] + nums[j] == target) {
                 return new int[] { i, j };
+                // return true;
             }
+            // else {
+            //     return false;
+            // }
         }
     }
     
     // If no solution is found, return an empty array or throw an exception
     return new int[] {} ;
+    // return  true;
 }
 
 public static void main(String[] args) {
@@ -21,6 +26,8 @@ public static void main(String[] args) {
     int[] result = findTwoSum(nums, target);     // static method canbe  called without creating object. 
     
     System.out.println(result[0] + ", " + result[1]);
+    // boolean result=findTwoSum(nums, target);
+    // System.out.println(result);
 }
 }
  
