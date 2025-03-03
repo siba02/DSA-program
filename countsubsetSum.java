@@ -2,7 +2,7 @@ public class countsubsetSum {
     public static int sol(int[]nums,int sum){
       
         int n=nums.length;
-        int t[][] =new int [n+1][sum+1];
+        int  t[][] =new int [n+1][sum+1];
 
         for (int i=0;i<=n;i++){
             for(int j=0;j<=sum;j++){
