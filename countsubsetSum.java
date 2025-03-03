@@ -28,10 +28,10 @@ public class countsubsetSum {
 }
     public static void main(String[] args) {
       int nums[]={2,3,5,8,10};
-      int sum=8;
+      int sum=18;
 
       
-      System.out.println("Number of subsets with sum 10: " + sol(nums,sum));
+      System.out.println("Number of subsets with sum : " + sol(nums,sum));
         
     }
 }

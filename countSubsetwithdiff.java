@@ -33,7 +33,7 @@ public class countSubsetwithdiff {
 
     public static void main(String[] args) {
         int nums[]={1,1,2,3};
-        int diff=3;
+        int diff=1;
         System.out.println("Number of subsets with difference 1: " + A(nums,diff));
     }  
 }
