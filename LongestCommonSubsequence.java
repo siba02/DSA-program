@@ -22,7 +22,7 @@ public class LongestCommonSubsequence {
     }
     public static void main(String[] args) {
         String x = "abcde";
-        String y = "ace";
+        String y = "acekh";
         int m = x.length();
         int n = y.length();
         System.out.println("Length of LCS is " + Lcs(x, y, m, n));

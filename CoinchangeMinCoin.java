@@ -34,7 +34,7 @@ public class CoinchangeMinCoin {
         return t[n][sum];
     }
     public static void main(String[] args){
-        int[] coin = {1, 2, 3};
+        int[] coin = {1, 2, 5};
         int sum = 7;
         System.out.println("Minimum coins needed: " + coinChange(coin, sum));
     }

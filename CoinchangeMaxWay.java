@@ -26,7 +26,7 @@ public class CoinchangeMaxWay {
     }
     public static void main(String[] args) {
         int coin[]={1,2,3};
-        int sum=5;
+        int sum=100;
         System.out.println("Maximum number of ways to make " + sum +" is " + Maxway(coin, sum));
     }
     

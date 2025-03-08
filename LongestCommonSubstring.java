@@ -30,9 +30,6 @@ public class LongestCommonSubstring {
         int n=y.length();
         System.out.println("Length of LCS is " + comstring(x,y,m,n));
     }
-
-
-    
 }
     
 
