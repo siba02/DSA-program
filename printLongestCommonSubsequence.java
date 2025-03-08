@@ -37,10 +37,6 @@ public class printLongestCommonSubsequence {
         }
         return s.reverse().toString();
     }
-
-        
-        
-    
     public static void main(String[] args) {
         String x="abcdfglk";
         String y="abcvxzk";
