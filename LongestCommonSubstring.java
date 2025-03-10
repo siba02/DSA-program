@@ -25,7 +25,7 @@ public class LongestCommonSubstring {
     }
     public static void main(String[] args) {
         String x="abefgh";
-        String y="acdtefgh";
+        String y="acdtfegh";
         int m=x.length();
         int n=y.length();
         System.out.println("Length of LCS is " + comstring(x,y,m,n));

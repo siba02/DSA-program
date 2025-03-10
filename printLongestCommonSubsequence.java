@@ -29,9 +29,11 @@ public class printLongestCommonSubsequence {
                 j--;
             }
             else if(t[i-1][j]>t[i][j-1]){
+               
                 i--;
             }
             else{
+                
                 j--;
             }
         }
