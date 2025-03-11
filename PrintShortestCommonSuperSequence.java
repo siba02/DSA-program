@@ -18,7 +18,7 @@ public class PrintShortestCommonSuperSequence {
             }
         }
         int i=m, j=n;
-        StringBuilder s = new StringBuilder();
+        StringBuffer s = new StringBuffer();
         while(i>0 && j>0){
             if(x.charAt(i-1) == y.charAt(j-1)) {
                 s.append(x.charAt(i-1));
