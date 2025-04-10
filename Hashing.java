@@ -5,7 +5,7 @@ public class Hashing {
         // key , value
         HashMap<String, Integer> map = new HashMap<>();
 
-        // insertion 
+        // insertion  
         map.put("bat",2500);
         map.put("ball",70);
         map.put("wicket",800);
